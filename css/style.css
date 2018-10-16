@@ -1,47 +1,68 @@
-/************** HEADER *****************/
 body{
-    overflow: hidden;
+    overflow-x: hidden;
+    font-family: 'K2D', sans-serif;
+    color: #374F6E;
 }
+/************** HEADER *****************/
+.nav-menu ul a{
+    color: rgb(103, 132, 170) !important;
+    border-bottom: 1px solid transparent;
+    transition: all 0.5s;
+}
+
+.nav-menu ul a:hover{
+    color: #AB72CF !important;
+    border-bottom: 1px solid #AB72CF;
+    
+}
+
 header{
-    position: relative;
-}
-.header {
-    background-image: linear-gradient(rgba(0 , 0 , 0 , 0.1) ,rgba(0 , 0 , 0 , 0.0) ), url("../image/IMG_8485_header_resized.jpg");
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    overflow: hidden;
-    padding: 0 !important;
-    margin: 0 !important;
+    background-color: rgb(255, 255, 255);
+  
 }
 
-.top-menu li {
-    list-style: none;
-    display: inline-block;
-    margin-top: 3rem;
-
-}
-.top-menu li a{
-    text-decoration: none;
-    color: red;
-    margin: 0 1rem;
-    font-size: 1rem;
+.f-link:link,
+.f-link:visited{
     color: white;
-    padding:0.2rem 2rem;
-    border-bottom: 2px solid transparent;
-    transition: all .7s;
+    background-color: #3D7FEF;
+    border-radius: 20px;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+.f-link:hover,
+.f-link:active{
+    color: white;
+    background-color: rgb(56, 111, 206);
+    border-radius: 20px;
+    padding: 5px 25px;
+    text-decoration: none;
 }
 
-.top-menu li a:hover{
-    border-bottom: 2px solid rgb(239, 255, 12);
+.s-link:link,
+.s-link:visited{
+    color: #3D7FEF;
+    border-radius: 25px;
+    border: 2px solid #3D7FEF;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+.s-link:hover,
+.s-link:active{
+    color: white;
+    background-color: rgb(56, 111, 206);
+    border-radius: 25px;
+    border: 2px solid #3D7FEF;
+    padding: 5px 20px;
+    text-decoration: none;
 }
 
-.header-text{
-    margin-top: 15rem;
-    font-size: 10rem;
-}
-.text{
-    font-size: 4rem;
-}
+
+/* .image-col{
+    background-image: url("../image/mine.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100vw;
+    height: 90vh;
+
+
+} */

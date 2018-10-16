@@ -24,7 +24,7 @@ header{
 .f-link:link,
 .f-link:visited{
     color: white;
-    background-color: #3D7FEF;
+    background-color: #A670EA;
     border-radius: 20px;
     padding: 5px 25px;
     text-decoration: none;
@@ -32,7 +32,7 @@ header{
 .f-link:hover,
 .f-link:active{
     color: white;
-    background-color: rgb(56, 111, 206);
+    background-color: rgb(119, 64, 187);
     border-radius: 20px;
     padding: 5px 25px;
     text-decoration: none;
@@ -40,18 +40,18 @@ header{
 
 .s-link:link,
 .s-link:visited{
-    color: #3D7FEF;
+    color: #A670EA;
     border-radius: 25px;
-    border: 2px solid #3D7FEF;
+    border: 2px solid #A670EA;
     padding: 5px 20px;
     text-decoration: none;
 }
 .s-link:hover,
 .s-link:active{
     color: white;
-    background-color: rgb(56, 111, 206);
+    background-color: #A670EA;
     border-radius: 25px;
-    border: 2px solid #3D7FEF;
+    border: 2px solid #A670EA;
     padding: 5px 20px;
     text-decoration: none;
 }
@@ -60,3 +60,13 @@ header{
     .hero {
     font-size: 3.5rem;
   }}
+
+
+  /**********************************************/
+  .my-upper-header{
+      color: #FB6A21;
+  }
+ 
+  .more{
+      color: #A670EA;
+  }

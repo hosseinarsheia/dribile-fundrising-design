@@ -56,13 +56,7 @@ header{
     text-decoration: none;
 }
 
-
-/* .image-col{
-    background-image: url("../image/mine.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    width: 100vw;
-    height: 90vh;
-
-
-} */
+@media (min-width: 865px) {  
+    .hero {
+    font-size: 3.5rem;
+  }}

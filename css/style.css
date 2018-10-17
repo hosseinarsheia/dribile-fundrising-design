@@ -18,7 +18,12 @@ body{
 
 header{
     background-color: rgb(255, 255, 255);
-  
+    
+}
+
+.hero-text{
+    /* margin-top: 6rem; */
+    padding-top: 10rem;
 }
 
 .f-link:link,
@@ -59,7 +64,21 @@ header{
 @media (min-width: 865px) {  
     .hero {
     font-size: 3.5rem;
-  }}
+  }
+  .hero-text{
+    /* margin-top: 6rem;*/
+    padding-top:2rem;
+}
+}
+
+@media (max-width: 864px) {  
+
+    .hero-text{
+        padding-top: 2rem ;
+    }
+
+}
+
 
 
   /**********************************************/
